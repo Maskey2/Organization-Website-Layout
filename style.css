@@ -1,0 +1,192 @@
+body {
+  font-family: Century Gothic;
+  height: 100vh;
+  background: url("http://backgroundcheckall.com/wp-content/uploads/2017/12/professional-background-for-powerpoint-presentation-8.jpg") 50% fixed;
+  background-size: cover;
+}
+.carousel-image{
+  max-height: 300px;
+  padding: 5px;
+}
+.responsive {
+  width: 100%;
+  max-width: 1000px;
+  height: auto;
+}
+.title{
+  text-align: center;
+  margin-bottom: 10px;
+    }
+
+.center{
+   text-align: center;
+}
+.dropbtn {                                    /*navbar start*/
+  background-color: #2aadce;
+  color: black;
+  padding: 16px;
+  font-size: 16px;
+  border: none;
+  margin: 2px;
+}
+
+.dropdown {
+  position: relative;
+  display: inline-block;
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #f1f1f1;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+}
+
+.dropdown-content a {
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+}
+.dropdown-content a:hover {background-color: #e4e4e4;}
+
+.dropdown:hover .dropdown-content {display: block;}
+
+.dropdown:hover .dropbtn {background-color: #97d9e9;}       /*navbar end*/
+
+
+
+
+
+
+.wrapper {
+  padding: 10px;
+  display: flex;  
+  flex-direction: column;   
+  width: 80%; 
+  background: rgba(0, 0, 0, 0.5);
+}
+
+.button {
+  background-color: #004466;
+  color: white;
+  padding: 8px 2px;
+  margin:auto;
+  border: none;
+  width: 50%;
+  cursor: pointer;
+  font-size: 18px;
+  font-family: Century Gothic;
+  display:inline-block;
+  border-radius: 25%;
+  margin: 2px;
+}
+.button-in {
+  background-color: #004466;
+  color: white;
+  padding: 8px 2px;
+  border: none;
+  width: 60%;
+  cursor: pointer;
+  font-size: 18px;
+  font-family: Century Gothic;
+  display:inline-block;
+  border-radius: 25%;
+  }
+
+.button:hover{
+  background-color:#333;
+  color:white;
+}
+.user {
+    max-height:150px;
+    margin: 10px;
+  }
+input[type=text] {
+    border: 3px solid #004466;
+    border-radius: 15px;
+    margin: 5px;
+    width: 70%;
+    height: 5%;
+    padding: 5px;
+    text-align: center;
+}
+input[type=text]:focus {
+    border: 3px solid black;
+}
+input[type=password] {
+    border: 3px solid #004466;
+    border-radius: 15px;
+    margin: 1px;
+    width: 70%;
+    height: 5%;
+    padding: 3px;
+    text-align: center;
+  }
+input[type=password]:focus {
+    border: 3px solid black;
+}
+.modal2 {
+  display: none; /* Hidden by default */
+  position: fixed; /* Stay in place */
+  z-index: 1; /* Sit on top */
+  left: 0;
+  top: 0;
+  width: 100%; /* Full width */
+  height: 100%; /* Full height */
+  overflow: auto; /* Enable scroll if needed */
+  background-color: rgb(0,0,0); /* Fallback color */
+  background-color: rgba(0,0,0,0.4); /* Black w/ opacity */
+  padding-top: 60px;
+}
+/* Modal Content/Box */
+.modal2-content {
+  background-color: #fefefe;
+  margin: 2% auto 5% auto; /* 5% from the top, 15% from the bottom and centered */
+  border: 5px solid teal;
+  width: 40%; /* Could be more or less, depending on screen size */
+  padding: 5%;
+  text-align: center;
+}
+/* Add Zoom Animation */
+
+.close {
+    position: absolute;
+    right: 25px;
+    top: 0;
+    color: #000;
+    font-size: 35px;
+    font-weight: bold;
+}
+.close:hover,
+.close:focus {
+    color: red;
+    cursor: pointer;
+}
+.animate {
+-webkit-animation: animatezoom 0.6s;
+animation: animatezoom 0.6s
+}
+@-webkit-keyframes animatezoom {
+from {-webkit-transform: scale(0)} 
+to {-webkit-transform: scale(1)}
+}
+@keyframes animatezoom {
+from {transform: scale(0)} 
+to {transform: scale(1)}
+}
+/* Change styles for span and cancel button on extra small screens */
+@media screen and (max-width: 300px) {
+span.psw {
+   display: block;
+   float: none;
+    }
+  }
+
+  .contactbg {   
+   background: rgba(0, 0, 0, 0.5);
+   margin-top: 150px;
+   padding: 50px;
+}
